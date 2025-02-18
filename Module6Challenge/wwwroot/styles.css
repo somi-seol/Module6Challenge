@@ -5,10 +5,19 @@ body
     margin: 0;
     padding: 0;
 }
+li
+{
+    font-size: 20px;
+}
+p
+{
+    font-size: 20px;
+    line-height: .6;
+}
 
 header, main, footer
 {
-    padding: 20px;
+    padding: 10px;
 }
 
 table
@@ -22,7 +31,7 @@ td, th
     text-align: left;
     padding: 8px;
 }
-tr:nth-child(even)
+tr:nth-child(even) /* darken every other row */
 {
     background-color: #dddddd;
 }
